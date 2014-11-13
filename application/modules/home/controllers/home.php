@@ -9,6 +9,6 @@ class Home extends MY_Controller
 
     public function index()
     {
-    	echo "This is the home controller";
+    	$this->load->view('home');
     }
 }
